@@ -1,0 +1,20 @@
+{
+  "name": "325-create-pool-pancakeswap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle exec scripts/deploy-without-creating-tokens.js --network bsctestnet"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.0.0",
+    "@truffle/hdwallet-provider": "^1.2.3",
+    "dotenv": "^8.2.0"
+  }
+}
